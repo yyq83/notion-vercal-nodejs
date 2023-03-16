@@ -2,25 +2,26 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '9ae922767ab546d19d48fd2c9b645bd7',//notion页面id
+  rootNotionPageId: 'splash-ink-6231e8c70c3646e993bfb21bad305edf',//notion页面id
   //https://yangyinqi.notion.site/9ae922767ab546d19d48fd2c9b645bd7
   //https://www.notion.so/yangyinqi/4996a757cf2e4185b7b9526301302cde?pvs=4
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
+  //https://yangyinqi.notion.site/splash-ink-6231e8c70c3646e993bfb21bad305edf
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '方法评估',
-  domain: 'https://yangyinqi.notion.site/9ae922767ab546d19d48fd2c9b645bd7',
+  name: 'splash-ink的公开主页',
+  domain: 'https://yangyinqi.notion.site/splash-ink-6231e8c70c3646e993bfb21bad305edf',
   author: 'yangyinqi',
 
   // open graph metadata (optional)
   description: 'method description',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  twitter: '',
+  github: 'yyq',
+  linkedin: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
